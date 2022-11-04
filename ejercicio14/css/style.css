@@ -1,0 +1,40 @@
+#tableWrap {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  width: 80%;
+  height: 100vh;
+  background: url(../../assets/gwyn-lord-of-cinder-154768.jpg) center
+    center/cover no-repeat fixed;
+}
+
+table {
+  width: 60%;
+  border-width: 5px;
+  border-style: outset;
+  border-color: rgb(207, 195, 195);
+  border-top-color: rgb(243, 243, 130);
+  border-left-color: rgb(243, 243, 130);
+  border-spacing: 0;
+}
+
+th,
+td {
+  padding: 0.2em;
+  border-width: 2px;
+  border-style: inset;
+  border-bottom-color: white;
+  border-right-color: white;
+  border-top-color: rgb(45, 166, 206);
+  border-left-color: rgb(45, 166, 206);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(235, 235, 75);
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
