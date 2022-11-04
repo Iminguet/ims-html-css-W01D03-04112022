@@ -2,14 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
 }
 
 .ejercicios {
+  width: 5em;
+  height: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 1em;
+  border: 1px solid red;
 }
