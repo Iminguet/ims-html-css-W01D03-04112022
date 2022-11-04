@@ -1,3 +1,7 @@
+body {
+  background: url(../../assets/ac.jpg);
+}
+
 #contenedorPrincipal {
   display: flex;
   justify-content: center;
@@ -15,5 +19,46 @@
   align-items: center;
   flex-direction: column;
   margin: 1em;
-  border: 1px solid red;
+  border: 1px solid black;
 }
+
+#A,
+#B1,
+#C,
+#D {
+  background: url(../../assets/back_mantel.jpg);
+}
+
+#B1 {
+  width: 80%;
+  height: 80%;
+}
+
+#C,
+#D {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#D {
+  box-sizing: border-box;
+  border: 10px solid whitesmoke;
+}
+
+#E,
+#F {
+  background: url(../../assets/dh.jpg) center center/cover no-repeat;
+}
+
+#F {
+  box-sizing: border-box;
+  border: 10px solid whitesmoke;
+}
+// TODO
+#G {
+  background: url(../../assets//dh_2.jpg) center center/cover no-repeat;
+  background: no-repeat centre centre;
+}
+
+/* ,,
+#H; */
