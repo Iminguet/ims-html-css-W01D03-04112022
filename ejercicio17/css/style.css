@@ -47,18 +47,56 @@ body {
 
 #E,
 #F {
-  background: url(../../assets/dh.jpg) center center/cover no-repeat;
+  background: url(../../assets/dh.jpg) no-repeat;
 }
 
 #F {
   box-sizing: border-box;
   border: 10px solid whitesmoke;
 }
-// TODO
+/* TODO */
 #G {
-  background: url(../../assets//dh_2.jpg) center center/cover no-repeat;
-  background: no-repeat centre centre;
+  background: url(../../assets/dh_2.jpg) no-repeat;
+  background-color: aliceblue;
 }
 
-/* ,,
-#H; */
+#H {
+  background: url(../../assets/dh_3.jpg) no-repeat;
+}
+
+#E,
+#F,
+#G,
+#H {
+  background-position: center;
+  background-size: contain;
+  background-color: aliceblue;
+}
+
+#I {
+  background: rgb(125, 230, 21);
+  background: linear-gradient(
+    90deg,
+    rgba(125, 230, 21, 1) 0%,
+    rgba(98, 147, 49, 1) 50%,
+    rgba(20, 25, 15, 1) 100%
+  );
+}
+#J {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(211, 140, 112) 25%,
+    rgb(199, 99, 59) 50%,
+    rgb(110, 32, 1) 80%,
+    rgb(110, 32, 1) 90%,
+    rgb(236, 224, 224) 100%
+  );
+}
+#K {
+  background: linear-gradient(#e6d5c3, #0ba558);
+}
+#L {
+  background: linear-gradient(transparent, #0ba558);
+}
