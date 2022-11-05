@@ -1,0 +1,41 @@
+#tableWrap {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-width: 5px;
+  border-style: outset;
+  border-color: rgb(207, 195, 195);
+  border-top-color: rgb(223, 215, 215);
+  border-left-color: rgb(223, 215, 215);
+  border-spacing: 2px;
+}
+
+th,
+td {
+  padding: 0.2em;
+  border-width: 2px;
+  border: 1px solid black;
+}
+tr:first-child {
+  background-color: rgb(103, 214, 81);
+  color: black;
+}
+
+.azul {
+  background-color: aquamarine;
+}
+
+.txtRojo {
+  color: red;
+}
+
+.morado {
+  background-color: violet;
+  text-align: end;
+}
