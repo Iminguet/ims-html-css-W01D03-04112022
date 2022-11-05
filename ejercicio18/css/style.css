@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#mainWrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: aquamarine;
+}
+#nubes,
+#mario {
+  width: 100vw;
+}
+
+#nubes {
+  background: url(../../assets/f03.png);
+  background-repeat: repeat-x;
+  height: 100%;
+}
+
+.medioSueloContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sueloSobreMario {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#mario {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#suelo {
+  position: absolute;
+  width: 100vw;
+  height: 1em;
+  background: url(../../assets/f01.png);
+  background-repeat: repeat;
+  background-size: contain;
+}
